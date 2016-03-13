@@ -38,7 +38,7 @@
             [lein-environ "1.0.2"]]
 
   ;;; Entry Point
-  :main server.main
+  :main cljat-ws.main
   :nrepl-options {:init-ns user}
  
   :profiles {
