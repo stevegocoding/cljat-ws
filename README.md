@@ -17,8 +17,7 @@ docker build -t cljat-ws-nrepl-img -f Dockerfile.nrepl .
 
 ### Run nrepl docker container for development
 ```
-docker run --rm -t --volumes-from=lein_dev_deps -v $(pwd):/cljat-ws -p
-8080:8080 -p 55655:7888 cljat-ws-nrepl-img
+docker run --rm -t --volumes-from=lein_dev_deps -v $(pwd):/cljat-ws -p 8090:8090 -p 55655:7888 cljat-ws-nrepl-img
 ```
 
 ## License
